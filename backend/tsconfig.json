@@ -6,8 +6,8 @@
 
     // Use Node16 module system for proper ESM support
     // This handles both .mjs and .cjs files correctly
-    "module": "Node16",
-    "moduleResolution": "Node16",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
 
     // Output directory for compiled JavaScript
     "outDir": "./dist",

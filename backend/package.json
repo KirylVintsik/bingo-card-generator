@@ -1,10 +1,10 @@
 {
-  "name": "backend",
+  "name": "bingo-cards-backend",
   "version": "1.0.0",
   "description": "Backend application for Bingo card generator",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.ts"
   },
   "author": "vintik.kirill@gmail.com",
   "license": "ISC",
