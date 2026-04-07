@@ -37,7 +37,9 @@
     "isolatedModules": true,
 
     // Enable ES module interop
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    "types": ["./@types/global.d.ts"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
