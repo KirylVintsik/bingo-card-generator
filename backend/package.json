@@ -2,9 +2,8 @@
   "name": "bingo-cards-backend",
   "version": "1.0.0",
   "description": "Backend application for Bingo card generator",
-  "type": "module",
   "scripts": {
-    "dev": "node --watch src/server.ts"
+    "dev": "npx tsx --watch src/server.ts"
   },
   "author": "vintik.kirill@gmail.com",
   "license": "ISC",
@@ -18,6 +17,7 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/mongoose": "^5.11.96",
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0"
   }
 }
